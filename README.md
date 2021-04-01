@@ -2,11 +2,29 @@
 
 A Todo application developed using Django (Python-based framework) and React. It allows to create todo items and save it in a database. 
 
+## Screenshots
+
+![1](https://user-images.githubusercontent.com/80028439/113283224-9fcc0680-9305-11eb-8289-6fa079bc951c.png)
+
+![2](https://user-images.githubusercontent.com/80028439/113283226-a0649d00-9305-11eb-8859-9a57fa3dd3ee.png)
+
+![3](https://user-images.githubusercontent.com/80028439/113283221-9e9ad980-9305-11eb-9a39-aed64419f747.png)
+
+![4](https://user-images.githubusercontent.com/80028439/113283222-9f337000-9305-11eb-9bd3-752c5ab58837.png)
+
 ## Pre-requisite
-- **Python3**
-- **NodeJS**
-- **npm**
+- **Python3** 
+    - https://www.python.org/downloads/
+- **React (NodeJS and npm)** 
+    - https://nodejs.org/en/download/
+    - https://www.npmjs.com/
 - **IDE** (such as Visual Studio code)
+    -  https://code.visualstudio.com/download
+
+The project has been setup in Windows OS. If you are on a different OS, please refer to the official documentation for installation.
+
+## Tech stack
+This project is built using Django, Python, Sqlite and React.
 
 ## Downloading the project from repository.
 Clone the project to your machine ```[git clone https://github.com/REPO_NAME]```
@@ -21,7 +39,7 @@ In order to run the project, following dependencies are required
 
 ## Setting up the project
 
-1. You can open the project in any IDE (such as Visual Studio Code). The project has two folders - frontend (contains the React code) and backend (contains the Django code). 
+1. You can open the project in any IDE (such as Visual Studio Code). The project has two folders - **frontend** (contains the UI logic, written in React) and **backend** (contains the business logic, written in Python). 
 
 ## Compiling and executing the application
 1. Since this application is using both React and Django, we will start their respective servers. For starting Django server, run the following command ```[python manage.py runserver]```. The terminal/command prompt should show the following - 
