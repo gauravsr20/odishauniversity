@@ -39,10 +39,10 @@ In order to run the project, following dependencies are required
 
 ## Setting up the project
 
-1. You can open the project in any IDE (such as Visual Studio Code). The project has two folders - **frontend** (contains the UI logic, written in React) and **backend** (contains the business logic, written in Python). 
+You can open the project in any IDE (such as Visual Studio Code). The project has two folders - **frontend** (contains the UI logic, written in React) and **backend** (contains the business logic, written in Python). 
 
 ## Compiling and executing the application
-1. Since this application is using both React and Django, we will start their respective servers. For starting Django server, run the following command ```[python manage.py runserver]```. The terminal/command prompt should show the following - 
+Since this application is using both React and Django, we will start their respective servers. For starting Django server, run the following command ```[python manage.py runserver]```. The terminal/command prompt should show the following - 
 
 ```
 Starting development server at http://127.0.0.1:8000/
